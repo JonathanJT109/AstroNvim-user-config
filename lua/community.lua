@@ -19,7 +19,6 @@ return {
   { import = "astrocommunity.pack.typescript" },
 
   -- Additional Tools
-  { import = "astrocommunity.editing-support.todo-comments-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
   -- { import = "astrocommunity.motion.harpoon" },
 }
