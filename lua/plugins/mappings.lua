@@ -3,6 +3,11 @@ return {
     "AstroNvim/astrocore",
     ---@type AstroCoreOpts
     opts = {
+      options = {
+        opt = {
+          pumblend = 10,
+        },
+      },
       mappings = {
         -- first key is the mode
         n = {},
