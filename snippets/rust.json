@@ -1,0 +1,20 @@
+{
+  "aoc-start": {
+    "prefix": "aoc-start",
+    "body": [
+      "use anyhow::Result;",
+      "use aoc::testing;\n",
+      "fn part_1(lines: &[String]) -> $1 {",
+      "   ${0:todo!()}",
+      "}\n",
+      "fn main() -> Result<()> {",
+      "    testing(${2:day}, &part_1, ${3: 0});",
+      "    Ok(())",
+      "}"
+    ],
+    "description": "Starter code for Advent of Code in Rust.",
+    "luasnip": {
+      "priority": 8000
+    }
+  }
+}
