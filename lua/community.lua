@@ -8,7 +8,7 @@ return {
   "AstroNvim/astrocommunity",
 
   -- Colorthemes
-  -- { import = "astrocommunity.colorscheme/catppuccin" },
+  { import = "astrocommunity.colorscheme/catppuccin" },
 
   -- Language Support
   { import = "astrocommunity.pack.cpp" },
@@ -22,6 +22,6 @@ return {
   { import = "astrocommunity.pack.typescript" },
 
   -- Additional Tools
-  { import = "astrocommunity.utility.noice-nvim" },
+  -- { import = "astrocommunity.utility.noice-nvim" },
   -- { import = "astrocommunity.motion.harpoon" },
 }
